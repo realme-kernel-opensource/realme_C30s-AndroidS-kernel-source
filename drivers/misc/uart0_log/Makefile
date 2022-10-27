@@ -1,0 +1,1 @@
+obj-$(CONFIG_UART0_OUTPUT_LOG_CONTROL) += uart0_log.o

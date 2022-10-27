@@ -1,0 +1,14 @@
+config TOUCHSCREEN_CTS
+    tristate "Cts Touchscreen"
+    help
+      Say Y here if you have CTS touch panel.
+      If unsure, say N.
+      
+
+config TOUCHSCREEN_CHIPONE_MILAN_9911D
+	tristate "choice icnl9911d_milan chipset"
+	depends on SPI
+	help
+	  Say Y here if you have a touchscreen using chipe one.
+	  To compile this driver as a module, choose M here: the
+	  module will be called chipe one.    

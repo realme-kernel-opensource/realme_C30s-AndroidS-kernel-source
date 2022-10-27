@@ -1,0 +1,7 @@
+config DEVICES_DEV_IFNO
+	tristate "config eng mode device info software"
+	default n
+	help
+		define this config to compile device register
+
+

@@ -1,0 +1,1 @@
+obj-$(CONFIG_DRM_SPRD_TL_DISPLAY_PRIVATE_API) += tl_display_private_api.o
